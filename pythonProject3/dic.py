@@ -1,8 +1,16 @@
-di={'a':c,'b':d,'c':e,'d':f,'e':g,'f':h,'g':i,}
-st="abc"
-for i in st:
-    if(st==di):
-        print(di(key.value))
-    else:
-        print("not found")
+alpha="abcdefghijklmnopqrstuvwxyz"
+list_1=[]
+count=0
+for i in alpha:
+    list_1.append(i)
+print(list_1)
+inputstr=input("enter the value:")
+for j in inputstr:
+    #print(j[2])
+    if j in list_1:
+       a=(list_1.index(j)+1)+2
+       print(list_1[a])
+
+     
+   
 
