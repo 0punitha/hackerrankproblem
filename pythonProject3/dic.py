@@ -6,10 +6,9 @@ for i in alpha:
 print(list_1)
 inputstr=input("enter the value:")
 for j in inputstr:
-    #print(j[2])
     if j in list_1:
        a=(list_1.index(j)+1)+2
-       print(list_1[a])
+       print(list_1[a-1])
 
      
    
