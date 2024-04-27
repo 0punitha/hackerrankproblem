@@ -9,7 +9,7 @@ for j in inputstr:
     if j in list_1:
        a=(list_1.index(j)+1)+2
        print(list_1[a-1])
+    
 
      
    
-
