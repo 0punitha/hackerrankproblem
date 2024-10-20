@@ -1,7 +1,7 @@
 if __name__ == '__main__':
-    n = int(input())
+    p = int(input())
     student_marks = {}
-    for _ in range(n):
+    for _ in range(p):
         name, *line = input().split()
         scores = list(map(float, line))
         student_marks[name] = scores
