@@ -9,4 +9,6 @@ for i in range(0,x+1):
             list.append([i+j+k])
             if(i+j+k != n):
                 print([i,j,k],end=" ") 
+
+print ("finish the program")
             
